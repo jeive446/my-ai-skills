@@ -1,0 +1,6 @@
+interface:
+  display_name: "本地算力—2D动漫MV制作"
+  short_description: "使用 image-gen 与本地 Wan、ComfyUI 制作连贯动漫 MV"
+  default_prompt: "使用 $local-2d-anime-mv 制作一支2D动漫MV，先确定人物、场景与分镜方案，确认后自动完成生成和后期。"
+policy:
+  allow_implicit_invocation: true

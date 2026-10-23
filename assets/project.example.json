@@ -1,0 +1,40 @@
+{
+  "project": "anime-mv-v1",
+  "audio": "audio/master.flac",
+  "lrc": "audio/lyrics.lrc",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "characters": [
+    {
+      "id": "lead",
+      "reference": "characters/lead.png",
+      "identity": "Approved appearance and clothing"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "river",
+      "reference": "scenes/river.png",
+      "layout": "Approved geography, lighting and prop positions"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "scene": "river",
+      "characters": [
+        "lead"
+      ],
+      "image": "frames/S001.png",
+      "prompt": "A continuous 2D anime close-up in the approved setting. Preserve the reference identity, clothing and lighting. The character turns slightly and smiles. Gentle deliberate camera push, no cuts or generated text.",
+      "duration": 2,
+      "edit_duration": 1.9,
+      "seed": 507001,
+      "camera": "slow push",
+      "incoming": "looking away",
+      "outgoing": "warm smile"
+    }
+  ],
+  "titles": []
+}
